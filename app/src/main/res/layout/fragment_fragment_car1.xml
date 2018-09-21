@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentCar1"
+    android:background="@drawable/ferraribg"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:id="@+id/autoNombre"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:fadingEdge="horizontal|vertical"
+            android:fontFamily="cursive"
+            android:hint="550"
+            android:text="Ferrari Maranello"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:id="@+id/imagenAuto"
+            android:layout_width="185dp"
+            android:layout_height="140dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="67dp"
+            android:src="@drawable/maranello"
+            android:outlineAmbientShadowColor="@android:color/holo_red_dark"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imagenAuto"
+            android:fontFamily="serif"
+            android:text="CARACTERISTICAS PRINCIPALES"
+            android:outlineAmbientShadowColor="@android:color/holo_red_dark"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:id="@+id/caracteristicasFerrari"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/caracteristicasFerrari"
+            android:fontFamily="serif"
+            android:text="Motor: 12 cilindros en V a 65º, delantero y longitudinal
+            Distribución: 4 árboles de levas en cabeza, 4 válvulas por cilindro
+            Alimentación: Inyección electrónica Bosch motronic 5.2
+            Potencia: 485 CV a 7000 rpm
+            Suspensión: independiente en las 4 ruedas
+            Neumáticos: delanteros 255/40 ZR 18, traseros 295/35 ZR 18
+            Peso: 1690 kg
+            Depósito de combustible: 115 L
+            Velocidad máxima: 320 km/h
+            Aceleración de 0 a 100 km/h: 4,4 s
+            Aceleración de 0 a 1000 m: 22,5 s"
+            android:textSize="11dp"
+            android:textColor="@android:color/white"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:foregroundGravity="center_vertical"
+            android:id="@+id/descripcionAuto"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

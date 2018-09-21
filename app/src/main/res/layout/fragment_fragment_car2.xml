@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentCar1"
+    android:background="@drawable/porschebg"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:id="@+id/autoNombre"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:fadingEdge="horizontal|vertical"
+            android:fontFamily="cursive"
+            android:hint="550"
+            android:text="Porsche 911 GT3 RS"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:id="@+id/imagenAuto"
+            android:layout_width="185dp"
+            android:layout_height="140dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="67dp"
+            android:src="@drawable/porsche"
+            android:outlineAmbientShadowColor="@android:color/holo_red_dark"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imagenAuto"
+            android:fontFamily="serif"
+            android:text="CARACTERISTICAS PRINCIPALES"
+            android:outlineAmbientShadowColor="@android:color/holo_red_dark"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/darker_gray"
+
+            android:textSize="20dp"
+            android:id="@+id/caracteristicasFerrari"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/caracteristicasFerrari"
+            android:fontFamily="serif"
+            android:text="Disposición: Bóxer (Horizontalmente opuesto)
+Cilindrada: 3.587 cc ( 996 mk2 )
+3.598 cc ( 997 mk1 )
+3.797 cc ( 997 mk2 )
+Cilindros: 6 horizontales opuestos
+Diámetro x carrera: 100,0 × 76,4 mm
+Compresión: 12,0 a 1
+Refrigeración: Líquida
+Potencia/régimen: 381 CV 7.300 rpm
+415 CV 7.600 rpm
+450 CV 8.500 rpm
+Par/régimen: 405,0 Nm a 5.500 rpm
+Alimentación: Inyección Electrónica Multipunto
+Aspiración: Natural
+Distribución: DOHC, cuatro válvulas por cilindro
+Combustible: Gasolina"
+            android:textSize="11dp"
+            android:textColor="@android:color/white"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:foregroundGravity="center_vertical"
+            android:id="@+id/descripcionAuto"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"/>
+
+    </RelativeLayout>
+
+</FrameLayout>
